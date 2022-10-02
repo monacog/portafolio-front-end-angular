@@ -1,0 +1,17 @@
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+li~ li{
+
+    margin-inline-start: 10px;
+}
+
+.fa-brands{
+    color:#FBB03B; 
+}
+.fa-brands:hover{
+    color:rgb(234, 234, 234); 
+    transform:scale(1.1);
+}

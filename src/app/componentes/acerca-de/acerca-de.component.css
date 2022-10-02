@@ -1,0 +1,135 @@
+section{
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;
+    margin-bottom: 15px;
+}
+
+#acercade{
+
+    inline-size: 94%;
+    margin: auto;
+}
+
+/* ACERCA DE HEAD*/
+
+.perfil{
+    inline-size: 20%;
+    min-inline-size: 180px;
+    padding: 0px;
+    margin-top: -90px;
+    border-radius: 50%;
+    border:  solid 4px white;
+}
+
+.perfil img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+app-btn-edit{
+    margin-block: auto;
+}
+
+/* ACERCA DE BODY*/
+
+.p1{
+    margin-block-end: 3px;
+}
+
+.p2{
+    color:var(--P2-color);
+    margin-block: 0;
+}
+
+.acercade-body-left a {
+    font-weight: 600;
+    color: var(--T1-color);
+    text-decoration: none;
+}
+
+.acercade-body-left a:hover {
+    text-decoration: underline;
+}
+
+.acercade-body-right {
+    margin: 0px ;
+}
+
+.acercade-body-right li:first-child {
+    margin-bottom: 1rem;
+}
+
+.acercade-body-right  a {
+    text-decoration: none;
+    color:var(--c2-color);
+    font-weight: 600;
+    align-items: center;
+}
+.acercade-body-right  a p{
+    margin-bottom: 0px;
+}
+
+.acercade-body-right a:hover {
+    color: var(--T1-color);
+    text-decoration: underline;
+}
+.img-empresa-small {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+
+
+/*ACERCA DE FOOTER*/
+
+.acercade-footer button {
+    border-radius: 20px;
+    padding:5px 15px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+.acercade-footer button:nth-child(1){
+    background-color: var(--T1-color);
+    color: white;
+    font-weight: 600;
+    border:none;
+    transition: background-color 0.2s;
+}
+.acercade-footer button:nth-child(1):hover{
+    background-color: #094b8d;
+}
+
+.acercade-footer button:nth-child(2){
+    border: solid var(--T1-color);  
+    color: var(--T1-color);
+    background-color: white;
+    font-weight: 600;
+    transition: background-color 0.2s, border 0.2s;
+}
+.acercade-footer button:nth-child(2):hover{
+    background-color: #0a66c21b;
+}
+.acercade-footer button:nth-child(3){
+
+    border: solid grey;
+    background-color: white;
+    color:grey;
+    font-weight: 600;
+    transition: background-color 0.2s, border 0.2s;
+}
+.acercade-footer button:nth-child(3):hover{
+    background-color: rgba(128, 128, 128, 0.16);
+}
+@media (max-width:800px){
+    .acercade-body-right{
+        display: none;
+    }
+}
+
+@media (max-width: 420px) {
+    .perfil {
+      margin-top: -50px;
+      min-width: 120px;
+    }
+  }

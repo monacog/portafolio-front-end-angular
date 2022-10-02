@@ -1,0 +1,32 @@
+.card-proyectos{
+    display: flex;
+    margin:auto;
+    justify-content: space-around ;
+}
+.card-hijo {
+    margin:auto;
+    max-width: 25%;
+}
+
+.card-hijo img{
+    width: 100%;
+    object-fit : contain;
+}
+.card-body-link{
+    color:rgb(91, 90, 90);
+    text-decoration: none;
+}
+
+.card-body-link:hover{
+    text-decoration: underline;
+}
+
+@media (max-width:800px){
+    .card-proyectos{
+        display:block;
+    } 
+    .card-hijo{
+        max-width: 95%;
+        align-items: center;
+    }
+}

@@ -1,0 +1,12 @@
+<section *ngFor="let section of sections.sections" [ngSwitch]="section.id">
+  <div [id]="section.id">
+    <div class="d-flex justify-content-between ">
+      <h3>{{section.title}}</h3>
+      <app-btn-edit> </app-btn-edit>
+    </div>
+    <app-item-exp-edu *ngSwitchCase="'experiencias'" [tipo]="'experiencias'"></app-item-exp-edu>
+    <app-item-exp-edu *ngSwitchCase="'educacion'" [tipo]="'educacion'"></app-item-exp-edu>
+    <app-item-hard-soft *ngSwitchCase="'skills'" ></app-item-hard-soft>
+    <app-item-project *ngSwitchCase="'proyectos'"></app-item-project>
+  </div>
+</section>

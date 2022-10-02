@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --t1-size: 3rem;
+  --t2-size: 2rem;
+
+  --T1-color: #0a66c2;
+  --T2-color: #232323;
+  --P2-color: #989898;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(224, 220, 220);
+  margin: 0px;
+}
+.centrar {
+  max-width: 80%;
+  margin: auto;
+}
+
+@media (max-width: 450px) {
+  .centrar {
+    max-inline-size: 95%;
+  }
+}
+

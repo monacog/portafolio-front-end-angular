@@ -1,0 +1,51 @@
+<section>
+  <div id="acercade">
+
+    <!-- ACERCA-DE-HEAD-->
+    <div class="acercade-head position-relative d-flex justify-content-between">
+      <div class="perfil">
+        <img src="../../assets/Perfil.jpg" alt="imagen de perfil" />
+      </div>
+      <app-btn-edit></app-btn-edit>
+    </div>
+
+    <!-- ACERCA-DE-BODY-->
+    <article id="acercade-body" class="d-flex justify-content-between">
+      <div class="acercade-body-left">
+        <h2>{{ datos.nombre }}</h2>
+        <p class="p1">Ventas en Protec Asociados SRL</p>
+        <p class="p2">{{ datos.lugar }}</p>
+        <a href="#">Informacion de contacto</a>
+      </div>
+      <ul class="acercade-body-right">
+        <li>
+          <a href="#experiencia" class="d-flex">
+            <img
+              class="img-empresa-small"
+              src="../../assets/Icon-empresa.jpg"
+              alt="logo Argentina Programa"
+            />
+            <p>Ventas en Protec Asociados SRL</p>
+          </a>
+        </li>
+        <li>
+          <a href="#educacion" class="d-flex">
+            <img
+              class="img-empresa-small"
+              src="../../assets/LOGO-Argentina-programa.png"
+              alt="logo Argentina Programa"
+            />
+            <p>Argentina Programa</p>
+          </a>
+        </li>
+      </ul>
+    </article>
+
+    <!-- ACERCA-DE-FOOTER-->
+    <div class="acercade-footer">
+      <button>Tengo interes en...</button>
+      <button>Añadir seccion</button>
+      <button>Mas</button>
+    </div>
+  </div>
+</section>

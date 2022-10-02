@@ -1,0 +1,13 @@
+ul {
+    margin-block-end: 0px;
+
+    padding: 0 1.5rem 1rem 2rem;
+}
+
+li{
+    margin-block-end: 1rem;
+}
+li:last-child{
+
+    margin-block-end: 0px;
+}

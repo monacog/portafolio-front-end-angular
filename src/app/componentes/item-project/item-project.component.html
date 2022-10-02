@@ -1,0 +1,20 @@
+<ul class="card-proyectos width-section padding-top-bottom">
+  <li class="card-hijo" *ngFor="let proyecto of proyectos">
+    <img
+      class="margen-bottom"
+      [src]="proyecto.src"
+      [alt]="proyecto.alt"
+    />
+    <div class="card-body">
+      <a class="card-body-link" [href]="proyecto.href" target="_blank" >
+        <h5 class="card-title">{{proyecto.titulo}}</h5>
+      </a>
+      <p class="card-text">
+        {{proyecto.descripcion}}
+      </p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"> {{proyecto.fecha}} </small>
+    </div>
+  </li>
+</ul>

@@ -1,0 +1,15 @@
+<ul class="" >
+  <li class="d-flex justify-content-between" *ngFor="let tipe of tipos">
+    <div class="d-flex">
+      <app-img-big [src]="tipe.src"></app-img-big>
+      <div>
+        <p class="t1">{{ tipe.titulo }}</p>
+        <p class="t2">{{ tipe.empresa }}</p>
+        <p class="t3">{{ tipe.fecha }}</p>
+      </div>
+    </div>
+    <div>
+      <app-btn-delete></app-btn-delete>
+    </div>
+  </li>
+</ul>

@@ -1,0 +1,20 @@
+section{
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 15px;
+}
+
+section > div{
+    inline-size: 94%;
+    margin: auto;
+    padding-top: 15px;
+}
+section div div{
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+
+h3{
+    margin: 0px ;
+
+}

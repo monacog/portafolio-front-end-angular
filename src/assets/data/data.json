@@ -1,0 +1,140 @@
+{
+	"sections": [{
+			"id": "experiencias",
+			"title": "EXPERIENCIA"
+		},
+		{
+			"id": "educacion",
+			"title": "EDUCACION"
+		},
+		{
+			"id": "skills",
+			"title": "HARD & SOFT SKILLS"
+		},
+		{
+			"id": "proyectos",
+			"title": "PROYECTOS"
+		}
+	],
+
+	"personal": {
+		"nombre": "Gerardo Javier Monaco",
+		"lugar": "Argentina, Buenos Aires, Ramos Mejia"
+	},
+
+
+	"educacion": [{
+			"titulo": "Full Stack desarrollo Web",
+			"empresa": "Argentina Programa",
+			"fecha": "Jul .2022 - Actualidad",
+			"src": "../../assets/LOGO-Argentina-programa.png"
+		},
+		{
+			"titulo": "Full Stack desarrollo Web",
+			"empresa": "EGG Educacion",
+			"fecha": "Jul .2022 - Actualidad",
+			"src": "../../assets/Logo Egg.png"
+		}
+		
+		],
+	"experiencias": [{
+			"titulo": "Ejecutivo de ventas",
+			"empresa": "Protec Asociados SRL",
+			"fecha": "Jul .2017 - Actualidad",
+			"src": "../../assets/Icon-empresa.jpg"
+		},
+		{
+			"titulo": "Ejecutivo de importacion",
+			"empresa": "Lusqtof Argentina",
+			"fecha": "Jul .2016 - Dic .2016",
+			"src": "../../assets/LOGO-Argentina-programa.png"
+		}
+	],
+
+	"proyectos": [{
+			"src": "../assets/banner-argentina-programa.jpg",
+			"alt": "Imagen Argentina Programa",
+			"href": "",
+			"titulo": "Portafolio",
+			"descripcion": "Proyecto creado para el curso de Argentina Programa - #YoProgramo",
+			"fecha": "Julio 2022"
+		},
+		{
+			"src": "../assets/banner empresa",
+			"alt": "Imagen empresa generica",
+			"href": "https: //github.com/monacog/portafolio-FrontEnd.git",
+			"titulo": "Why Me",
+			"descripcion": "Pagina web simple para Fabrica de calzados - freelance.",
+			"fecha": "Enero 2022"
+		}
+	],
+	"skills": [{
+			"class": "progress-bar progress-bar-striped progress-bar-animated",
+			"role": "progressbar",
+			"label": "Default striped example",
+			"style": "width: 20% ",
+			"valuenow": 10,
+			"valuemin": 0,
+			"valuemax": 100,
+			"lenguaje": "Javascript"
+		},
+		{
+			"class": "progress-bar progress-bar-striped bg-success progress-bar-animated",
+			"role": "progressbar",
+			"label": "Success striped example",
+			"style": "width: 35% ",
+			"valuenow": "100",
+			"valuemin": "0",
+			"valuemax": "100",
+			"lenguaje": "CSS"
+		},
+		{
+			"class": "progress-bar progress-bar-striped bg-danger progress-bar-animated",
+			"role": "progressbar",
+			"label": "Success striped example",
+			"style": "width: 35% ",
+			"valuenow": "25",
+			"valuemin": "0",
+			"valuemax": "100",
+			"lenguaje": "GIT HUB"
+		},
+		{
+			"class": "progress-bar progress-bar-striped bg-info progress-bar-animated",
+			"role": "progressbar",
+			"label": "Success striped example",
+			"style": "width: 35% ",
+			"valuenow": "25",
+			"valuemin": "0",
+			"valuemax": "100",
+			"lenguaje": "GIT"
+		},
+		{
+			"class": "progress-bar progress-bar-striped bg-warning progress-bar-animated",
+			"role": "progressbar",
+			"label": "Warning striped example",
+			"style": "width: 75%",
+			"valuenow": "75",
+			"valuemin": "0",
+			"valuemax": "100",
+			"lenguaje": "HTML"
+		}
+	],
+
+	"redSocials": [{
+			"href": "https://www.linkedin.com/in/gerardo-monaco/",
+			"target": "_black",
+			"class": "fa-brands fa-linkedin fa-2x"
+		},
+		{
+			"href": "https://www.instagram.com/geramonaco/?hl:es",
+			"target": "_black",
+			"class": "fa-brands fa-instagram fa-2x"
+		},
+		{
+			"href": "https://www.facebook.com/monacogj",
+			"target": "_black",
+			"class": "fa-brands fa-facebook fa-2x"
+		}
+	]
+
+}

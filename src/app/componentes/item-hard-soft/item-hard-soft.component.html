@@ -1,0 +1,16 @@
+
+<ul>
+  <li class="progress"  *ngFor="let skill of skills">
+    <div
+      class={{skill.class}}
+      [ngClass]="{'role': skill.role}"
+      [ngClass]="{'aria-label': skill.label}"
+      style={{skill.style}}
+      [ngClass]="{'aria-valuenow○': skill.valuenow}"
+      [ngClass]="{'aria-valuemin': skill.valuemin}"
+      [ngClass]="{'aria-valuemax': skill.valuemax}"
+    >
+      {{skill.lenguaje}}
+    </div>
+  </li>
+</ul>
